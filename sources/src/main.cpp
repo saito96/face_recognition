@@ -1,16 +1,11 @@
 #include <iostream>
-#include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
-#include <opencv2/imgproc/imgproc.hpp>
 
-using namespace cv;
+using namespace std;
 
-int main(int argc, char** argv )
+
+int main(int argc, char const *argv[])
 {
-    Mat image;
-    image = imread( "sample.jpg", 1 );
-    namedWindow("Display Image", WINDOW_AUTOSIZE );
-    imshow("Display Image", image);
-    waitKey(0);
+    
+    cout << "Hello World" << endl;
     return 0;
 }
