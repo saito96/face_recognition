@@ -36,3 +36,4 @@ build/*
 .vscode/*
 Cmake.cpp
 CMakeLists.txt
+output
